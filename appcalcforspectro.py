@@ -11,3 +11,11 @@ df = pd.DataFrame(
 )
 
 st.table(df)
+
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+chart_data = pd.DataFrame(np.random.randn(20, 2), columns=["a", "b"])
+
+st.scatter_chart(chart_data)
