@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("Calculator for Spectrofotometry UV-VIS and Atomic Absorbstion Spectrofotometry")
