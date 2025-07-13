@@ -19,7 +19,7 @@ import numpy as np
 chart_data = pd.DataFrame(np.random.randn(20, 2), columns=["a", "b"])
 
 st.scatter_chart(chart_data)
- import streamlit as st
+import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
