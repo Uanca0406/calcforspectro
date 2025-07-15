@@ -5,3 +5,4 @@ streamlit
 babel
 scipy>=1.0.0
 numpy>=1.0.0
+openpyxl>=3.0.0
